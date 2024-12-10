@@ -1,16 +1,84 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Movie: The Dark Knight</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            margin: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 20px 0;
+        }
+        aside {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-left: 4px solid #007BFF;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <header>
+        <h1>The Dark Knight</h1>
+    </header>
 
+    <nav>
+        <a id="nav-actor" href="#actor">Actors</a>
+        <a id="nav-quote" href="#quote">Quotes</a>
+    </nav>
+
+    <section>
+        <h2>Summary</h2>
+        <p>
+            "The Dark Knight" is a masterpiece directed by Christopher Nolan that follows Batman's battle against the Joker, 
+            a criminal mastermind whose chaotic schemes test Gotham City's resilience. The movie explores themes of morality, 
+            sacrifice, and the blurred lines between heroism and villainy.
+        </p>
+    </section>
+
+    <section id="actor">
+        <h2>Actors</h2>
+        <p>
+            The movie stars Christian Bale as Bruce Wayne/Batman, Heath Ledger as the Joker, and Aaron Eckhart as Harvey Dent. 
+            Heath Ledger's portrayal of the Joker is widely regarded as one of the greatest performances in cinema history.
+        </p>
+    </section>
+
+    <section id="quote">
+        <h2>Favorite Quote</h2>
+        <p>
+            "You either die a hero or you live long enough to see yourself become the villain." – Harvey Dent
+        </p>
+    </section>
+
+    <aside>
+        <h3>IMDb Rating: 9.0/10</h3>
+        <p>Release Date: July 18, 2008</p>
+    </aside>
+
+    <footer>
+        <p>Produced by: Christopher Nolan</p>
+    </footer>
 </body>
-
 </html>
